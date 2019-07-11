@@ -139,4 +139,4 @@ Um einer Auswertung zu widersprechen klicken Sie bitte hier und entfernen Sie de
 
 Wenn Sie Anmerkungen oder Fragen haben:
 
-Wir treffen alle erdenklichen Vorkehrungen zum Schutz und zur Sicherheit Ihrer Daten. Ihre Fragen und Kommentare zum Datenschutz sind uns willkommen, schreiben Sie einfach eine Mail an info@okfn.de.</p>
+Wir treffen alle erdenklichen Vorkehrungen zum Schutz und zur Sicherheit Ihrer Daten. Ihre Fragen und Kommentare zum Datenschutz sind uns willkommen, schreiben Sie einfach eine Mail an info@okfn.de.
