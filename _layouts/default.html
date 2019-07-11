@@ -1,12 +1,7 @@
----
-
----
-
 <!DOCTYPE html>
 <html lang="de">
-
   <head>
-    <title>Vernetzte Welten</title>
+    <title>{{ site.title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -14,13 +9,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/vrnwltn.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700&display=swap" rel="stylesheet">
+    <script src="{{ site.baseurl }}/js/jquery/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap/bootstrap.min.js"></script>
   </head>
 
   <body>
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="{{ site.baseurl }}/">Vernetzte Welten</a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,37 +44,33 @@
       <main>
         {{ content }}
       </main>
-    
+
       <footer class="py-5">
-      <div class="container text-center">
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/2019/indien.html">Indien '19</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/2017/ostasien">Ostasien '17</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/2016/suedkorea.html">S&#252;d-Korea '16</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/oer/index.html">Open Educational Resources</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/kontakt.html">Kontakt</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/datenschutz.html">Datenschutz</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/impressum.html">Impressum</a>
-        </li>
-      </ul>
-    </div>
-    </footer>
-
-<script src="{{ site.baseurl }}/js/jquery/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/js/bootstrap/bootstrap.min.js"></script>
-</body>
-
+        <nav class="container text-center">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/2019/indien">Indien '19</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/2017/ostasien">Ostasien '17</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/2016/suedkorea">S&#252;d-Korea '16</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/oer/">Open Educational Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/kontakt">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/impressum#datenschutzerklärung">Datenschutz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/impressum">Impressum</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+  </body>
 </html>

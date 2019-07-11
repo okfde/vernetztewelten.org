@@ -1,1 +1,21 @@
-baseurl: "/"
+title: "Vernetzte Welten"
+description: "Das Schüleraustauschprogramm mit Jugend hackt und Goethe-Institut"
+lang: "de_DE"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vernetztewelten.org" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - commands.txt
+  - start_serve.bat
+  - start_watch.bat
+
+sass:
+  sass_dir: assets/_scss
+  style: compressed
